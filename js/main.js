@@ -1,6 +1,8 @@
 "use strict"
 
 $(document).ready(function(){
+    
+    
 	$("input").bind("input", function() {
     var fields = $(this).parents('form:eq(0),body').find('input');
         var index = fields.index( this );

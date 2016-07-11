@@ -302,7 +302,6 @@ label {
 
 .content-wrap {
   margin: 10px 15px;
-  padding: 20px 0 0;
   border: 2px solid #444a54;
 }
 
@@ -385,6 +384,12 @@ label {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.heading h2 {
+  font-size: 28px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
 .radio-inline label {
   display: inline-block;
   margin-right: 50px;
@@ -427,3 +432,26 @@ input[type='number'] {
     -moz-appearance:textfield;
 }
 
+.no-label {
+  margin-top: 28px;
+}
+
+.more-radio .radio-inline {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+.more-radio .radio-inline label,
+.more-radio .radio-inline .anyOther {
+  margin-right: 0;
+  width: calc(8.33333%*3);
+}
+
+@media only screen and (min-width: 768px){
+  .more-radio .radio-inline label,
+  .more-radio .radio-inline .anyOther {
+    width: calc(8.33333%*2);   
+  }
+}
