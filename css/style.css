@@ -449,9 +449,45 @@ input[type='number'] {
   width: calc(8.33333%*3);
 }
 
-@media only screen and (min-width: 768px){
-  .more-radio .radio-inline label,
-  .more-radio .radio-inline .anyOther {
-    width: calc(8.33333%*2);   
-  }
+.selected-language ul{
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.selected-language ul li{
+  display: block;
+  line-height: 35px;
+  background-color: #ffffff;
+  color: #667080;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.selected-language ul li span{
+  width:16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  background: url('../img/move.png') center center no-repeat;
+  top: 9px;
+  right: 20px;
+  position: absolute;
+}
+
+.affiliation-board-selection label.small-text{
+  margin-top: 15px;
+}
+
+.staff-category .item {
+  margin-bottom: 20px;
+}
+
+.staff-category .type span{
+  display: block;
+}
+
+.staff-category .type {
+  align-self: center;
+  -webkit-align-self: center;
 }
