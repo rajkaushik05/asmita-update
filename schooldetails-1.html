@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container gray-bg" id="">
-      <form action="schooldetails-1.html">
+      <form action="staff-funds.html">
         <header>
           <div class="logo">
             <h1> ASMITA </h1>
@@ -26,151 +26,101 @@
           <div class="padding">
             <h2>School Details</h2>
           </div>
-          <div class="field padding">
-            <label for="">Lowest Class of School</label>
-            <div class="radio-style radio-inline">
-              <input type="radio" name="lowestClass" id="lowestClass-1"> 
-              <label for="lowestClass-1"><span></span>1</label>
-              <input type="radio" name="lowestClass" id="lowestClass-6"> 
-              <label for="lowestClass-6"><span></span>6</label>
-              <input type="radio" name="lowestClass" id="lowestClass-9"> 
-              <label for="lowestClass-9"><span></span>9</label>
-              <input type="radio" name="lowestClass" id="lowestClass-11"> 
-              <label for="lowestClass-11"><span></span>11</label>
-            </div>
-          </div>
-
-          <div class="field padding">
-            <label for="">Highest Class of School</label>
-            <div class="radio-style radio-inline">
-              <input type="radio" name="heighestClass" id="heighestClass-5"> 
-              <label for="heighestClass-5"><span></span>1</label>
-              <input type="radio" name="heighestClass" id="heighestClass-8"> 
-              <label for="heighestClass-8"><span></span>6</label>
-              <input type="radio" name="heighestClass" id="heighestClass-10"> 
-              <label for="heighestClass-10"><span></span>9</label>
-              <input type="radio" name="heighestClass" id="heighestClass-12"> 
-              <label for="heighestClass-12"><span></span>11</label>
-            </div>
-          </div>
 
           <div class="field">
             <div class="row">
               <div class="col-6">
-                <label for="">School Category <span class="star">*</span></label>
-                <input type="text" class="form-control" placeholder="Enter school category">
+                <label for="">Medium of interaction <span class="star">*</span></label>
+                <input type="text" class="form-control" placeholder="Type and Select language">
               </div>
-              <div class="col-6">
-                <input type="text" class="form-control no-label" placeholder="School category code">
+              <div class="col-6 selected-language">
+                <ul>
+                  <li>Hindi<span class="move"></span></li>
+                  <li>English<span class="move"></span></li>
+                  <li>Sanskrit<span class="move"></span></li>
+                </ul>
               </div>
             </div>
           </div>
           
           <div class="field padding">
-            <label for="">Type of school <span class="star">*</span></label>
+            <label for="">Are the majority of people taught through their mother tongue at primary stage? <span class="star">*</span></label>
             <div class="radio-style radio-inline">
-              <input type="radio" name="alocation" id="urbanRadio"> 
-              <label for="urbanRadio"><span></span>Urban</label>
-              <input type="radio" name="alocation" id="ruralRadio"> 
-              <label for="ruralRadio"><span></span>Rural</label>
+              <input type="radio" name="motherTongue" id="motherTongueYes"> 
+              <label for="motherTongueYes"><span></span>Yes</label>
+              <input type="radio" name="motherTongue" id="motherTongueNo"> 
+              <label for="motherTongueNo"><span></span>No</label>
             </div>
           </div>
 
           <div class="field">
             <div class="row">
               <div class="col-6">
-                <label for="">Managed by <span class="star">*</span></label>
-                <input type="text" class="form-control" placeholder="Type and search">
+                <label for="">Language(s) taught at primary stage <span class="star">*</span></label>
+                <input type="text" class="form-control" placeholder="Type and Select language">
               </div>
-              <div class="col-6">
-                <input type="text" class="form-control no-label" placeholder="Enter code">
+              <div class="col-6 selected-language">
+                <ul>
+                  <li>Hindi<span class="move"></span></li>
+                  <li>English<span class="move"></span></li>
+                  <li>Sanskrit<span class="move"></span></li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="field padding">
-            <label for="">School approachable by all-weather road <span class="star">*</span></label>
+          <div class="field padding more-radio affiliation-board-selection">
+            <label for="">Affiliation board<span class="star">*</span></label>
+            <label for="" class="small-text">For secondary sections</label>
             <div class="radio-style radio-inline">
-              <input type="radio" name="schoolApproachable" id="schoolApproachablYes"> 
-              <label for="schoolApproachablYes"><span></span>Yes</label>
-              <input type="radio" name="schoolApproachable" id="schoolApproachablNo"> 
-              <label for="schoolApproachablNo"><span></span>No</label>
+              <input type="radio" name="affiliationSecondary" id="affiliationSecondaryCBSE"> 
+              <label for="affiliationSecondaryCBSE"><span></span>CBSE</label>
+              <input type="radio" name="affiliationSecondary" id="affiliationSecondaryStateBoard"> 
+              <label for="affiliationSecondaryStateBoard"><span></span>State board</label>
+              <input type="radio" name="affiliationSecondary" id="affiliationSecondaryICSE"> 
+              <label for="affiliationSecondaryICSE"><span></span>ICSE</label>
+              <input type="radio" name="affiliationSecondary" id="affiliationSecondaryInternational"> 
+              <label for="affiliationSecondaryInternational"><span></span>International Board</label>
+              <input type="radio" name="affiliationSecondary" id="affiliationSecondaryOther"> 
+              <label for="affiliationSecondaryOther"><span></span>Any other</label>
+              <input type="text" class="form-control anyOther" placeholder="Other religion">
             </div>
-          </div>
-
-          <div class="field padding">
-            <label for="">Year of establishment <span class="star">*</span></label>
-            <div class="col-6">
-              <input type="text" class="form-control">
-            </div>
-          </div>
-
-          <div class="field padding">
-            <label for="">Year of recognition of school <span class="star">*</span></label>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-          </div>
-
-          <div class="field padding">
-            <label for="">Year of upgrade <span class="star">*</span></label>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-            <div class="col-4">
-              <input type="text" class="form-control">
-            </div>
-          </div>
-        
-          <div class="field padding">
-            <label for="">Special school for CWSN?<span class="star">*</span></label>
+            <label for="" class="small-text">For higher secondary sections</label>
             <div class="radio-style radio-inline">
-              <input type="radio" name="specialSchool" id="specialSchoolYes"> 
-              <label for="specialSchoolYes"><span></span>Yes</label>
-              <input type="radio" name="specialSchool" id="specialSchoolNo"> 
-              <label for="specialSchoolNo"><span></span>No</label>
-            </div>
-          </div>
-
-          <div class="field padding">
-            <label for="">Shift school<span class="star">*</span></label>
-            <div class="radio-style radio-inline">
-              <input type="radio" name="shiftSchool" id="shiftSchoolYes"> 
-              <label for="shiftSchoolYes"><span></span>Yes</label>
-              <input type="radio" name="shiftSchool" id="shiftSchoolNo"> 
-              <label for="shiftSchoolNo"><span></span>No</label>
-            </div>
-          </div>
-
-          <div class="field padding more-radio">
-            <label for="">Is this religious minority school?<span class="star">*</span></label>
-            <div class="radio-style radio-inline">
-              <input type="radio" name="religiousMinority" id="religiousMinorityNo"> 
-              <label for="religiousMinorityNo"><span></span>No</label>
-              <input type="radio" name="religiousMinority" id="religiousMinoritySikh"> 
-              <label for="religiousMinoritySikh"><span></span>Sikh</label>
-              <input type="radio" name="religiousMinority" id="religiousMinorityChristian"> 
-              <label for="religiousMinorityChristian"><span></span>Christian</label>
-              <input type="radio" name="religiousMinority" id="religiousMinorityMuslim"> 
-              <label for="religiousMinorityMuslim"><span></span>Muslim</label>
-              <input type="radio" name="religiousMinority" id="religiousMinorityParsi"> 
-              <label for="religiousMinorityParsi"><span></span>Parsi</label>
-              <input type="radio" name="religiousMinority" id="religiousMinorityBhudist"> 
-              <label for="religiousMinorityBhudist"><span></span>Bhudist</label>
-              <input type="radio" name="religiousMinority" id="religiousMinorityAnyOther"> 
-              <label for="religiousMinorityAnyOther"><span></span>Any Other</label>
+              <input type="radio" name="affiliationHigher" id="affiliationHigherCBSE"> 
+              <label for="affiliationHigherCBSE"><span></span>CBSE</label>
+              <input type="radio" name="affiliationHigher" id="affiliationHigherStateBoard"> 
+              <label for="affiliationHigherStateBoard"><span></span>State board</label>
+              <input type="radio" name="affiliationHigher" id="affiliationHigherICSE"> 
+              <label for="affiliationHigherICSE"><span></span>ICSE</label>
+              <input type="radio" name="affiliationHigher" id="affiliationHigherInternational"> 
+              <label for="affiliationHigherInternational"><span></span>International Board</label>
+              <input type="radio" name="affiliationHigher" id="affiliationHigherOther"> 
+              <label for="affiliationHigherOther"><span></span>Any other</label>
               <input type="text" class="form-control anyOther" placeholder="Other religion">
             </div>
           </div>
+
+          <div class="field padding">
+            <label for="">Offering any pre-vocational course(s) at secondary stage? <span class="star">*</span></label>
+            <div class="radio-style radio-inline">
+              <input type="radio" name="vocationalCourse" id="vocationalCourseYes"> 
+              <label for="vocationalCourseYes"><span></span>Yes</label>
+              <input type="radio" name="vocationalCourse" id="vocationalCourseNo"> 
+              <label for="vocationalCourseNo"><span></span>No</label>
+            </div>
+          </div>
+
+          <div class="field padding">
+            <label for="">Providing eductional and vocational guidance and counselling to students? <span class="star">*</span></label>
+            <div class="radio-style radio-inline">
+              <input type="radio" name="vocationalQuidance" id="vocationalQuidanceYes"> 
+              <label for="vocationalQuidanceYes"><span></span>Yes</label>
+              <input type="radio" name="vocationalQuidance" id="vocationalQuidanceNo"> 
+              <label for="vocationalQuidanceNo"><span></span>No</label>
+            </div>
+          </div>
+          
         </div><!-- content-wrap END -->
         <div class="action">  
           <button class="btn btn-primary" id="">Continue</button>
