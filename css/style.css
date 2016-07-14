@@ -288,7 +288,7 @@ label {
 }
 
 .action {
-    padding: 10px 15px 30px;
+    padding: 10px 15px;
     display: flex;
     display: -moz-flex;
     display: -webkit-flex;
@@ -335,8 +335,6 @@ label {
   width: 30px;
   padding: 0 5px;
 }
-
-
 
 .multidise > .row input[type="number"]{
   margin-left: 5px;
@@ -479,6 +477,10 @@ input[type='number'] {
   margin-top: 15px;
 }
 
+.staff-category {
+  margin-bottom: 20px;  
+}
+
 .staff-category .item {
   margin-bottom: 20px;
 }
@@ -491,3 +493,16 @@ input[type='number'] {
   align-self: center;
   -webkit-align-self: center;
 }
+
+.staff-category .text-right {
+  align-self: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.container.gray-bg{
+  padding-bottom: 20px;
+}
+

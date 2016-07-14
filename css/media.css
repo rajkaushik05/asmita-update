@@ -3,4 +3,16 @@
     width: 100%;
     padding-top: 10px;
   }
+
+  .last-academic-year label {
+  	width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px){
+	.staff-category .col-8 input{
+	  width: 50%;
+	  box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	}
 }
