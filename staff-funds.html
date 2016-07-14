@@ -31,7 +31,7 @@
             <div class="padding">
               <label for="">Details of last academic year<span class="star">*</span></label>
             </div>
-            <div class="row">
+            <div class="row last-academic-year">
               <div class="col-4">
                 <label for="" class="small-text">Number of academic inspections</label>
                 <input type="number" class="form-control" placeholder="Enter a number">
@@ -60,16 +60,16 @@
                 <div class="row item">
                   <div class="col-4"></div>
                   <div class="col-4">
-                    <span>Number of sectioned post</span>
+                    <span class="small-text">Number of sectioned post</span>
                   </div>
                   <div class="col-4">
-                    <span>Number of teachers in position</span>
+                    <span class="small-text">Number of teachers in position</span>
                   </div>
                 </div>
 
                 <!-- repeatable item -->
                 <div class="row item">
-                  <div class="col-4">For primary</div>
+                  <div class="col-4 text-right">For Primary</div>
                   <div class="col-4">
                     <input type="number" class="form-control" placeholder="Enter a number">
                   </div>
@@ -80,7 +80,7 @@
 
                 <!-- repeatable item -->
                 <div class="row item">
-                  <div class="col-4">For upper primary</div>
+                  <div class="col-4 text-right">For Upper Primary</div>
                   <div class="col-4">
                     <input type="number" class="form-control" placeholder="Enter a number">
                   </div>
@@ -89,16 +89,166 @@
                   </div>
                 </div>
 
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Secondary</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Higher Secondary</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">Total</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
               </div>
             </div>
+            
+            <div class="row staff-category">
+              <div class="col-3 type">
+                <p>b. Contract Teacher <span>(Regular teachers)</span></p>
+              </div>
+              <div class="col-9">
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4"></div>
+                  <div class="col-8">
+                    <span class="small-text">Number of teachers in position</span>
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Primary</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Upper Primary</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Secondary</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Higher Secondary</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">Total</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+              </div>
+            </div><!-- row end -->
+
+            <div class="row staff-category">
+              <div class="col-3 type">
+                <p>c. Part-time instructor<br> positioned as per RTE</p>
+              </div>
+              <div class="col-9">
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">For Upper Primary</div>
+                  <div class="col-8">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+              </div>
+            </div><!-- row end -->
+
+            <div class="row staff-category">
+              <div class="col-3 type">
+                <p>School funds received in last completed financial year excluding MDM <span>(for elementary schools/section)</span></p>
+              </div>
+              <div class="col-9">
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4"></div>
+                  <div class="col-4">
+                    <span class="small-text">Receipt</span>
+                  </div>
+                  <div class="col-4">
+                    <span class="small-text">Expenditure</span>
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">School Developement Grant (Under SSA)</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">School Maintenance Grant (Under SSA)</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+
+                <!-- repeatable item -->
+                <div class="row item">
+                  <div class="col-4 text-right">TLM / Teachers Grant (Under SSA)</div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                  <div class="col-4">
+                    <input type="number" class="form-control" placeholder="Enter a number">
+                  </div>
+                </div>
+              </div>
+            </div><!-- row end -->
           </div>
-
-
-
         </div><!-- content-wrap END -->
-        <div class="action">  
+        <!-- <div class="action">  
           <button class="btn btn-primary" id="">Continue</button>
-        </div>
+        </div> -->
       </form>
     </div>
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
